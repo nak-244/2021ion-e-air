@@ -1,13 +1,5 @@
 /*
 
-@Author: Themezinho
-@URL: http://www.themezinho.net
- 
-This file contains the styling for the actual theme, this
-is the file you need to edit to change the look of the
-theme.
-
-
 	// Table of contents //
 
 		01. FONTS
@@ -15,7 +7,7 @@ theme.
 		03. HTML TAGS
 		04. LINKS
 		05. FORM ELEMENTS
-		06. CUSTOM CONTAINER 
+		06. CUSTOM CONTAINER
 		07. CUSTOM CURSOR
 		08. RANGE SLIDER
 		09. ACCORDION
@@ -23,7 +15,7 @@ theme.
 		11. HAMBURGER MENU
 		12. REVEAL EFFECT
 		13. CUSTOM BUTTON
-		14. PRELOADER 
+		14. PRELOADER
 		15. PAGE TRANSITION
 		16. PAGE LOADED
 		17. HAMBURGER NAVIGATION
@@ -71,7 +63,7 @@ theme.
 		59. TABLET DEVICE RESPONSIVE
 		60. MOBILE DEVICE RESPONSIVE
 
-	
+
 
 */
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;600;800&display=swap");
