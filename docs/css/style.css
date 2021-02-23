@@ -77,11 +77,13 @@
 * {
   outline: none !important;
 }
+/* GoogleWEBfont */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap');
 
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Jost', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 18px;
   color: #141414;
   text-rendering: optimizeLegibility;
@@ -926,7 +928,7 @@ body .page-header {
   width: 100%;
   display: block;
   font-size: 22px;
-  font-family: "Argesta Display";
+  font-family: 'Noto Sans JP', sans-serif;
   margin-bottom: 20px;
 }
 .hamburger-navigation .info-box .nav-social {
@@ -973,7 +975,7 @@ body .page-header {
   display: inline-block;
   color: #fff;
   font-size: 3vw;
-  font-family: "Argesta Display";
+  font-family: 'Noto Sans JP', sans-serif;
 }
 .hamburger-navigation .nav-menu li a:hover {
   color: #856d47;
@@ -1112,7 +1114,7 @@ body .page-header {
 .slider h1 {
   font-weight: 400;
   font-size: 6vw;
-  font-family: "Argesta Display";
+  font-family: 'Noto Sans JP', sans-serif;
   margin-bottom: 30px;
 }
 .slider p {
@@ -1225,7 +1227,7 @@ body .page-header {
   bottom: 0;
   z-index: 1;
   color: #141414;
-  font-family: "Argesta Display";
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 22px;
 }
 .slider .slider-prev {
@@ -1318,7 +1320,7 @@ body .page-header {
   width: 100%;
   display: block;
   font-size: 5vw;
-  font-family: "Argesta Display";
+  font-family: 'Noto Sans JP', sans-serif;
   text-indent: -5px;
 }
 .page-header .container p {
@@ -1442,7 +1444,7 @@ body .page-header {
   width: 100%;
   display: block;
   margin: 0;
-  font-family: "Argesta Display";
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 60px;
 }
 
@@ -1535,7 +1537,7 @@ body .page-header {
   width: 100%;
   display: block;
   margin: 0;
-  font-family: "Argesta Display";
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 50px;
 }
 .side-content p {
@@ -1683,7 +1685,7 @@ body .page-header {
   width: 100%;
   display: block;
   font-size: 44px;
-  font-family: "Argesta Display";
+  font-family: 'Noto Sans JP', sans-serif;
   margin-bottom: 25px;
 }
 .side-hotel-box p {
@@ -1986,7 +1988,7 @@ body .page-header {
   width: 100%;
   display: block;
   font-size: 28px;
-  font-family: "Argesta Display";
+  font-family: 'Noto Sans JP', sans-serif;
 }
 .carousel-events-box .content h5 a {
   display: inline-block;
@@ -2070,7 +2072,7 @@ body .page-header {
   width: 100%;
   display: block;
   font-size: 36px;
-  font-family: "Argesta Display";
+  font-family: 'Noto Sans JP', sans-serif;
   margin-bottom: 20px;
 }
 .rooms-slider .swiper-slide .room-detail .reviews {
@@ -2171,7 +2173,7 @@ body .page-header {
   width: 100%;
   display: block;
   font-size: 36px;
-  font-family: "Argesta Display";
+  font-family: 'Noto Sans JP', sans-serif;
   margin-top: 20px;
   margin-bottom: 0;
 }
@@ -2210,7 +2212,7 @@ body .page-header {
   width: 100%;
   display: block;
   margin-bottom: 15px;
-  font-family: "Argesta Display";
+  font-family: 'Noto Sans JP', sans-serif;
 }
 .testimonial-box p {
   width: 100%;
@@ -2233,7 +2235,7 @@ body .page-header {
   width: 100%;
   display: block;
   font-size: 36px;
-  font-family: "Argesta Display";
+  font-family: 'Noto Sans JP', sans-serif;
   margin-bottom: 15px;
 }
 .package-box p {
@@ -2327,7 +2329,7 @@ body .page-header {
   width: 100%;
   display: block;
   font-size: 28px;
-  font-family: "Argesta Display";
+  font-family: 'Noto Sans JP', sans-serif;
   margin-bottom: 25px;
   opacity: 0.7;
 }
@@ -2498,7 +2500,7 @@ body .page-header {
   width: 100%;
   display: block;
   font-size: 36px;
-  font-family: "Argesta Display";
+  font-family: 'Noto Sans JP', sans-serif;
   margin-bottom: 20px;
 }
 .room-box .content .bottom-specs {
@@ -2555,7 +2557,7 @@ body .page-header {
   width: 100%;
   display: block;
   font-size: 80px;
-  font-family: "Argesta Display";
+  font-family: 'Noto Sans JP', sans-serif;
   margin-bottom: 20px;
   text-indent: -4px;
 }
@@ -2602,7 +2604,7 @@ body .page-header {
   display: block;
   margin: 0;
   font-size: 19px;
-  font-family: "Argesta Display";
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 /* ROOM GALLERY */
@@ -2654,7 +2656,7 @@ body .page-header {
   width: 100%;
   display: block;
   font-size: 26px;
-  font-family: "Argesta Display";
+  font-family: 'Noto Sans JP', sans-serif;
   margin-bottom: 15px;
   color: #856d47;
 }
@@ -2739,7 +2741,7 @@ body .page-header {
   width: 100%;
   display: block;
   font-size: 28px;
-  font-family: "Argesta Display";
+  font-family: 'Noto Sans JP', sans-serif;
 }
 .meeting-event-box .content h5 a {
   display: inline-block;
@@ -2797,7 +2799,7 @@ body .page-header {
   width: 100%;
   display: block;
   font-size: 28px;
-  font-family: "Argesta Display";
+  font-family: 'Noto Sans JP', sans-serif;
 }
 .special-offer-box .content h5 a {
   display: inline-block;
@@ -2844,7 +2846,7 @@ body .page-header {
   width: 100%;
   display: block;
   font-size: 50px;
-  font-family: "Argesta Display";
+  font-family: 'Noto Sans JP', sans-serif;
   margin-bottom: 20px;
   text-indent: -4px;
 }
@@ -2893,7 +2895,7 @@ body .page-header {
   display: block;
   margin-bottom: 15px;
   font-size: 22px;
-  font-family: "Argesta Display";
+  font-family: 'Noto Sans JP', sans-serif;
 }
 .contact-box address {
   width: 100%;
@@ -3024,7 +3026,7 @@ body .page-header {
   font-size: 38px;
   line-height: 1.4;
   font-weight: 400;
-  font-family: "Argesta Display";
+  font-family: 'Noto Sans JP', sans-serif;
 }
 .news-box .content h3 a {
   display: block;
@@ -3072,7 +3074,7 @@ body .page-header {
   background: #f5f3ec;
   color: #856d47;
   font-size: 22px;
-  font-family: "Argesta Display";
+  font-family: 'Noto Sans JP', sans-serif;
   margin: 30px 0;
 }
 .news-box .content ul {
@@ -3112,7 +3114,7 @@ body .page-header {
   color: #856d47;
   margin-bottom: 30px;
   padding-bottom: 30px;
-  font-family: "Argesta Display";
+  font-family: 'Noto Sans JP', sans-serif;
 }
 .sidebar .widget .widget-title:after {
   content: "";
@@ -3234,7 +3236,7 @@ body .page-header {
   width: 100%;
   display: block;
   margin-bottom: 20px;
-  font-family: "Argesta Display";
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 60px;
 }
 .newsletter-box form {
@@ -3313,7 +3315,7 @@ body .page-header {
   width: 100%;
   display: block;
   font-size: 22px;
-  font-family: "Argesta Display";
+  font-family: 'Noto Sans JP', sans-serif;
   margin-bottom: 25px;
 }
 .footer p {
