@@ -1,49 +1,3 @@
-/* ================================================== */
-
-
-/* PRIVA
-/* created by designesia
-
-* body
-* header
-	* subheader
-* navigation
-* content
-* section
-* footer
-* sidebar
-* blog
-* products
-* contact
-* coming soon page
-* elements
-	* address
-	* border
-	* box icon
-	* breadcrumb
-	* button and link
-	* columns
-	* counter
-	* divider
-	* dropcap
-	* heading
-	* icon font
-	* list
-	* map
-	* package
-	* page heading
-	* pagination
-	* pricing
-	* preloader
-	* progress bar
-	* social icons
-	* spacer
-	* tabs
-	* team
-	* testimonial
-* plugin
-* media query
-*/
 
 @charset "utf-8";
 
@@ -55,7 +9,7 @@
 
 /* ================================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
 
 /* ================================================== */
 
@@ -85,7 +39,7 @@ html {
 	background: #fff;
 }
 body {
-	font-family:"Red Hat Display";
+	font-family: 'Noto Sans JP', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	color: #606060;
@@ -140,7 +94,7 @@ header {
 	left: 0;
 	z-index: 1001;
 	background: #2b313f;
-	margin:0;	
+	margin:0;
 	height:90px;
 	/*border-bottom:solid 1px rgba(255,255,255,0);*/
 }
@@ -230,7 +184,7 @@ header .logo-scroll {
 	display: none;
 }
 header .logo, header .logo-2{
-	font-family:"Red Hat Display";
+	font-family: 'Noto Sans JP', sans-serif;
 	color:#fff;
 	font-size:40px;
 	font-weight:300;
@@ -273,7 +227,7 @@ header.smaller .btn-rsvp {
 }
 header.smaller div#logo,
 header.s2 div#logo {
-	
+
 }
 header.smaller.scroll-light {
 	background: #ffffff;
@@ -398,7 +352,7 @@ header .header-col.mid .social-icons{
 	margin: 0;
 	float: none;
 	text-align: center;
-	font-family: "Red Hat Display";
+	font-family:  'Noto Sans JP', sans-serif;
 	letter-spacing: 5px;
 	font-size: 14px;
 	padding: 0;
@@ -431,7 +385,7 @@ header .header-col.mid .social-icons{
 #subheader {
 	text-align: center;
 	overflow: hidden;
-	padding: 100px 0 100px 0;	
+	padding: 100px 0 100px 0;
 }
 #subheader h1 {
 	margin-top: 50px;
@@ -505,7 +459,7 @@ header .header-col.mid .social-icons{
 /* ================================================== */
 
 #mainmenu {
-	font-family: "Red Hat Display";
+	font-family:  'Noto Sans JP', sans-serif;
 	font-size: 14px;
 	margin:0 auto;
 	float:none;
@@ -517,7 +471,7 @@ header .header-col.mid .social-icons{
 	border-radius:5px;
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
-	overflow:hidden;	
+	overflow:hidden;
 	background: #ffffff;
 	-webkit-box-shadow: 2px 2px 30px 0px rgba(20,20,20, 0.1);
 	-moz-box-shadow: 2px 2px 30px 0px rgba(20,20,20, 0.1);
@@ -531,7 +485,7 @@ header .header-col.mid .social-icons{
 	list-style: none;
 	position: relative;
 }
-#mainmenu > li{	
+#mainmenu > li{
 	letter-spacing: 1px;
 	font-weight:bold;
 }
@@ -570,7 +524,7 @@ header .header-col.mid .social-icons{
 	font-weight:600;
 }
 #mainmenu li li{
-	font-family: "Red Hat Display";
+	font-family:  'Noto Sans JP', sans-serif;
 	font-size:14px;
 }
 #mainmenu li li:last-child {
@@ -684,14 +638,14 @@ header .header-col.mid .social-icons{
 		visibility: visible;
 		opacity: 1;
 		left:0;
-		float:none;		
+		float:none;
 		width:100%;
 	}
 	#mainmenu ul.mega > li ul li{
 		margin:0;
 		padding:0;
 	}
-	
+
 	#mainmenu ul.mega > li ul li:last-child{
 		border-bottom:solid 1px #333333;
 	}
@@ -779,7 +733,7 @@ section {
 	position: relative;
 }
 section:not(.relative){
-	
+
 }
 section.no-bg, #content.no-bg{
 	background:none !important;
@@ -997,7 +951,7 @@ header.header-light .logo-2{
 /* topbar start here */
 
 #topbar{
-	z-index:1000;	
+	z-index:1000;
 	width:100%;
 	padding:0 30px;
 	overflow:hidden;
@@ -1047,7 +1001,7 @@ header.header-light .logo-2{
 	position: relative;
 	font-weight: bold;
 	color:#ffffff;
-	font-family:'Red Hat Display';
+	font-family:'Noto Sans JP', sans-serif;
 	padding-left: 40px;
 	font-size: 18px;
 	padding-top: 20px;
@@ -1092,13 +1046,13 @@ header.header-light .logo-2{
 	font-size: 16px;
 	margin-right:10px;
 }
-.topbar-widget.tb-phone:before{	
+.topbar-widget.tb-phone:before{
 	content: "\f095";
 }
-.topbar-widget.tb-email:before{	
+.topbar-widget.tb-email:before{
 	content: "\f003";
 }
-.topbar-widget.tb-opening-hours:before{	
+.topbar-widget.tb-opening-hours:before{
 	content: "\f017";
 }
 .topbar-widget.tb-social{
@@ -1116,7 +1070,7 @@ header.header-light .logo-2{
 #topbar:not(.topbar-noborder) .topbar-light .topbar-widget.tb-social a:first-child
 {border-left:solid 1px #eeeeee;}
 
-#topbar:not(.topbar-noborder) .topbar-widget.tb-social a{	
+#topbar:not(.topbar-noborder) .topbar-widget.tb-social a{
 	border-left:solid 1px rgba(255,255,255,.1);
 }
 
@@ -1216,13 +1170,13 @@ header.header-light .logo-2{
 	font-size: 14px;
 }
 .blog-list .date-box .day {
-	font-family: "Red Hat Display";
+	font-family:  'Noto Sans JP', sans-serif;
 	color: #222222;
 	font-weight: bold;
 	font-size: 28px;
 }
 .blog-list .date-box .month {
-	font-family: "Red Hat Display";
+	font-family:  'Noto Sans JP', sans-serif;
 	color: #fff;
 	font-size: 13px;
 	letter-spacing: 3px;
@@ -1370,7 +1324,7 @@ header.header-light .logo-2{
 }
 
 .p-tagline, .p-title{
-	font-family: "Red Hat Display";
+	font-family:  'Noto Sans JP', sans-serif;
 	background: rgba(var(--primary-color-rgb),.2);
 	border-radius: 3px;
 	display: inline-block;
@@ -1415,7 +1369,7 @@ header.header-light .logo-2{
 	margin-right:20px;
 	font-size: 13px;
 	color:#999;
-	font-family:"Red Hat Display";
+	font-family: 'Noto Sans JP', sans-serif;
 }
 .post-author{
 	color:#777;
@@ -1694,8 +1648,8 @@ input[type="checkbox"] {
 	-webkit-border-radius:0 5px 5px 0 ;
 }
 .form-default input[type=text]:focus, .form-default textarea:focus, .form-default input[type=email]:focus, .form-default select:focus{
-	background:#f6f6f6;	
-} 
+	background:#f6f6f6;
+}
 
 .error_input{
 	border-bottom:solid 1px #ff0000 !important;
@@ -2256,7 +2210,7 @@ a.btn-text-light {
 	left: 20px;
 }
 a.btn-custom, .btn-custom, a.btn-slider, .btn-slider {
-	font-family: "Red Hat Display";
+	font-family:  'Noto Sans JP', sans-serif;
 	font-size: 12px;
 	min-width: 120px;
 }
@@ -2265,7 +2219,7 @@ a.btn-custom,a.btn-custom:active,a.btn-custom:focus,a.btn-custom:visited,
 	color: #fff;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;	
+	-webkit-border-radius: 5px;
 	outline:0;
 	font-weight:bold;
 	text-decoration:none;
@@ -2300,12 +2254,12 @@ a.btn-border {
 	font-size:12px;
 	letter-spacing: 2px;
 	}
-	
+
 a.btn-border:hover {
 	color: #ffffff;
 	border-color:rgba(255, 255, 255, 0);
 	margin-top:-2px;
-	margin-bottom:2px;	
+	margin-bottom:2px;
 	box-sizing: border-box
 }
 
@@ -2476,7 +2430,7 @@ a.btn-link{
 .de_count.small h4{
 	font-size:28px;
 	margin-bottom:0;
-	
+
 }
 
 /* divider */
@@ -2640,7 +2594,7 @@ h1, h2, h4, h3, h5, h6,
 .h1,.h2,.h3,.h4,.h5,.h6,
 footer.footer-light h5 {
 	margin-top:0;
-	font-family: "Red Hat Display";
+	font-family:  'Noto Sans JP', sans-serif;
 	font-weight: 800;
 	color: #1a1b1e;
 }
@@ -2797,7 +2751,7 @@ h4.s3 {
 	font-weight: lighter;
 }
 h4.s3 {
-	font-family: "Red Hat Display";
+	font-family:  'Noto Sans JP', sans-serif;
 	font-weight: 400;
 	font-size: 12px;
 	letter-spacing: 15px;
@@ -2842,7 +2796,7 @@ h2.subtitle {
 	margin-top: 0;
 }
 h2.name {
-	font-family: "Red Hat Display";
+	font-family:  'Noto Sans JP', sans-serif;
 	color: #fff;
 	font-size: 84px;
 	line-height: 50px;
@@ -2852,7 +2806,7 @@ h2.name span {
 	font-size: 32px;
 }
 h2.name-s1 {
-	font-family: "Red Hat Display";
+	font-family:  'Noto Sans JP', sans-serif;
 	color: #fff;
 	font-size: 84px;
 	font-weight: 700;
@@ -2870,7 +2824,7 @@ h2.hw {
 	font-weight: lighter;
 }
 h2.deco {
-	font-family: "Red Hat Display";
+	font-family:  'Noto Sans JP', sans-serif;
 	text-align: center;
 	font-weight: 600;
 	font-size: 20px;
@@ -2895,7 +2849,7 @@ h2.deco span:after {
 	margin-left: 15px;
 }
 h2.hs1 {
-	font-family: "Red Hat Display";
+	font-family:  'Noto Sans JP', sans-serif;
 	font-size: 40px;
 }
 h2.hs1 i {
@@ -2920,7 +2874,7 @@ h2 .de_light .text-light h2 {
 	border-top: 1px solid rgba(255, 255, 255, .5);
 }
 h2.s2 {
-	font-family: "Red Hat Display";
+	font-family:  'Noto Sans JP', sans-serif;
 	font-weight: 400;
 }
 h2.s3{
@@ -2940,7 +2894,7 @@ h4.title {
 	margin-bottom: 20px;
 }
 h5.s2 {
-	font-family: "Red Hat Display";
+	font-family:  'Noto Sans JP', sans-serif;
 	letter-spacing: 1px;
 	font-size: 14px;
 }
@@ -3119,7 +3073,7 @@ i.font60{
 	border-radius:3px;
 	-moz-border-radius:3px;
 	-webkit-border-radius:3px;
-	
+
 	/*-webkit-box-shadow: 8px 8px 18px 0px rgba(0,0,0,0.2);
 	-moz-box-shadow: 8px 8px 18px 0px rgba(0,0,0,0.2);
 	box-shadow: 8px 8px 18px 0px rgba(0,0,0,0.2);*/
@@ -3514,7 +3468,7 @@ box-shadow: 5px 5px 10px 0px rgba(var(--primary-color-rgb),.3);
 .f-box.f-icon-circle i{
 	display:block;
 	text-align:center;
-	padding:22px 0;	
+	padding:22px 0;
 	padding-top: 12px;
 	min-width:80px;
 	height:80px;
@@ -3954,7 +3908,7 @@ transform: scale(1.2);
 }
 .pricing-s1 .top .price b {
 	color: #fff;
-	font-family:"Red Hat Display";
+	font-family: 'Noto Sans JP', sans-serif;
 	font-weight:500;
 }
 .pricing-s1 .top .price .month {
@@ -4136,7 +4090,7 @@ transform: scale(1.2);
 }
 .pricing-s2 .top .price b {
 	font-size: 40px;
-	font-family:"Red Hat Display";
+	font-family: 'Noto Sans JP', sans-serif;
 	font-weight:500;
 }
 .pricing-s2 .top .price .month {
@@ -4268,10 +4222,10 @@ transform: scale(1.2);
 }
 
 @keyframes sk-bouncedelay {
-  0%, 80%, 100% { 
+  0%, 80%, 100% {
     -webkit-transform: scale(0);
     transform: scale(0);
-  } 40% { 
+  } 40% {
     -webkit-transform: scale(1.0);
     transform: scale(1.0);
   }
@@ -4364,7 +4318,7 @@ transform: scale(1.2);
 
 .rtl .skill-bar .value{
 	float: left;
-}	
+}
 
 .skill-bar h4{
 	font-size:16px;
@@ -4429,10 +4383,10 @@ transform: scale(1.2);
 	border:none;
 	font-size:16px;
 	margin:3px;
-} 
+}
 .social-icons.s1:hover i{
 	background:none;
-} 
+}
 
 .social-icons.s1 {
   line-height: 0.5;
@@ -4440,7 +4394,7 @@ transform: scale(1.2);
 }
 .social-icons.s1 .inner {
   display: inline-block;
-  position: relative; 
+  position: relative;
 }
 .social-icons.s1 .inner:before,
 .social-icons.s1 .inner:after {
@@ -4489,7 +4443,7 @@ transform: scale(1.2);
 .accordion
 {
     overflow:hidden;
-    
+
 }
 .accordion-section-title
 {
@@ -4500,7 +4454,7 @@ transform: scale(1.2);
 }
 .accordion-section-title
 {
-		font-family:"Red Hat Display";
+		font-family: 'Noto Sans JP', sans-serif;
 	    color:#111111;
         width: 100%;
         padding: 15px;
@@ -4606,10 +4560,10 @@ transform: scale(1.2);
 
 .expand-custom .c1{
 	width:10%;
-}	
+}
 .expand-custom .c2{
 	width:80%;
-}	
+}
 .expand-custom .c3{
 	width:10%;
 }
@@ -4664,7 +4618,7 @@ transform: scale(1.2);
 	padding: 30px 0 30px 0;
 	border-radius: 120px;
 	color: #222;
-	font-family: "Red Hat Display";
+	font-family:  'Noto Sans JP', sans-serif;
 	font-size: 16px;
 	-moz-border-radius: 120px;
 	-webkit-border-radius: 120px;
@@ -4770,30 +4724,30 @@ transform: scale(1.2);
 }
 
 .de_tab.tab_steps.style-2 .de_nav li .arrow {
-	  width: 0; 
-	  height: 0; 
+	  width: 0;
+	  height: 0;
 	  border-left: 0px solid transparent;
 	  border-right: 0px solid transparent;
 	  border-top: 0px solid transparent;
 	  margin:0 auto;
 	  margin-bottom:20px;
 	}
-	
+
 	.de_tab.tab_steps.style-2 .de_nav li.active .arrow {
-	  width: 0; 
-	  height: 0; 
+	  width: 0;
+	  height: 0;
 	  border-left: 20px solid transparent;
 	  border-right: 20px solid transparent;
 	  border-top: 20px solid;
 	  margin:0 auto;
 	}
-	
+
 	.de_tab.tab_steps.style-2 .de_nav li {
 		margin:5px;
 		display:inline-block;
 	}
 	.de_tab.tab_steps.style-2 .de_nav li span {
-	font-family:"Red Hat Display";
+	font-family: 'Noto Sans JP', sans-serif;
 	background:rgba(255,255,255,.1);
 	border-radius:0px;
 	font-size:16px;
@@ -4809,13 +4763,13 @@ transform: scale(1.2);
 	-webkit-border-radius:300px;
 	-webkit-border-radius:300px;
 	}
-	
+
 	.de_tab.tab_steps.style-2 .de_nav li i{
 		display:block;
 		font-size:36px;
 		margin-bottom:10px;
 	}
-	
+
 	.de_tab.tab_steps.style-2.sub-style-2 .de_nav li span {
 	background:rgba(0,0,0,.1);
 	color:#000;
@@ -4827,11 +4781,11 @@ transform: scale(1.2);
 	opacity:1;
 	border:none;
 	}
-	
+
 	.de_tab.tab_steps.style-2 .de_nav li span:hover{
 	border:none;
 	}
-	
+
 	.de_tab.tab_steps.style-2 .de_tab_content{
 	border:none;
 	}
@@ -5095,7 +5049,7 @@ transform: scale(1.2);
 	background: none;
 	border: none;
 	margin-top: 20px;
-	font-family: "Red Hat Display";
+	font-family:  'Noto Sans JP', sans-serif;
 	font-size: 14px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -5137,7 +5091,7 @@ transform: scale(1.2);
 	border: solid 1px rgba(255, 255, 255, .2);
 	padding: 10px 20px 10px 20px;
 	margin: 5px;
-	font-family: "Red Hat Display";
+	font-family:  'Noto Sans JP', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 5px;
 }
@@ -5334,7 +5288,7 @@ a.btn-left, a.btn-right {
 }
 .de_testi.opt-2 blockquote {
 	display: block;
-	font-family:"Red Hat Display";
+	font-family: 'Noto Sans JP', sans-serif;
 	border:none;
 	color: #606060;
 	font-weight:300;
@@ -5369,7 +5323,7 @@ a.btn-left, a.btn-right {
 }
 
 .de_testi.opt-2.review blockquote:before{
-	display: none;	
+	display: none;
 }
 
 .de_testi.opt-2.review .p-rating{
@@ -5390,7 +5344,7 @@ a.btn-left, a.btn-right {
 	background:rgba(20,20,20,.5);
 }
 .de_testi.opt-2 blockquote p{
-	font-family:"Red Hat Display";
+	font-family: 'Noto Sans JP', sans-serif;
 	font-size:16px;
 	padding:40px 0 0 0;
 	font-weight:400;
@@ -5471,7 +5425,7 @@ a.btn-left, a.btn-right {
 /* timeline */
 
 .timeline{ position: relative; padding: 10px}
-.timeline:before{ 
+.timeline:before{
     content: '';
     position: absolute;
     top: 0;
@@ -5480,7 +5434,7 @@ a.btn-left, a.btn-right {
     width: 1px;
     background: #eee;
 }
-.text-light .timeline:before{ 
+.text-light .timeline:before{
     background:rgba(255,255,255,.1);
 }
 .timeline .tl-block{ position: relative; margin-top: 10px; }
@@ -5503,14 +5457,14 @@ a.btn-left, a.btn-right {
 .timeline .tl-block .tl-time h4{margin:0 0 10px 0;}
 .timeline .tl-block .tl-main h4{margin-top:-24px;}
 
-.timeline.exp:before{ 
+.timeline.exp:before{
     left: 214px;
 }
 .timeline.exp .tl-message{margin-left:250px;}
 .timeline.exp .tl-block .tl-bar{margin-left:200px; }
 
 /* timeline */
-	
+
 	.timeline {
   list-style: none;
   padding: 20px 0 20px;
@@ -5560,7 +5514,7 @@ a.btn-left, a.btn-right {
   border-radius:10px;
   -moz-border-radius:10px;
   -webkit-border-radius:10px;
-  
+
 }
 .timeline > li > .timeline-panel:before {
   position: absolute;
@@ -6416,7 +6370,7 @@ p.sub{
 	border: solid 1px #202220;
 }
 blockquote {
-	font-family:"Red Hat Display";
+	font-family: 'Noto Sans JP', sans-serif;
 	font-size: 24px;
 	font-style: normal;
 	font-weight: 500;
@@ -6427,7 +6381,7 @@ blockquote {
 	color:#606060;
 }
 blockquote span {
-	font-family:"Red Hat Display";
+	font-family: 'Noto Sans JP', sans-serif;
 	display: block;
 	font-size: 14px;
 	font-style: normal;
@@ -6960,7 +6914,7 @@ a, a:hover, .test-column, .test-column:hover {
 	font-weight: bold;
 }
 span.overlay {
-	font-family:"Red Hat Display";
+	font-family: 'Noto Sans JP', sans-serif;
 	text-align: center;
 	display: block;
 	width: 100px;
@@ -6973,7 +6927,7 @@ span.icon {
 	cursor: pointer;
 }
 
-.f_box{	
+.f_box{
 	display:block;
 	position:relative;
 	float:left;
@@ -7026,7 +6980,7 @@ span.icon {
 	color:#fff;
 	z-index:2;
 	text-align:center;
-	font-weight:bold;	
+	font-weight:bold;
 }
 .f_box .f_cap_wrap .f_cap{
 	vertical-align:middle;
@@ -7063,7 +7017,7 @@ span.icon {
 .f_box.s2:hover img{
 	 transform: scale(1.2);
 }
-.f_box.s2{	
+.f_box.s2{
 	position:static;
 }
 .f_box.s2 .f_cap_wrap{
@@ -7414,7 +7368,7 @@ a.img-icon-zoom {
 .widget_tags li a {
 	border-color: #555;
 }
-.widget_tags li a:hover 
+.widget_tags li a:hover
 	border-color: #eceff3;
 }
 footer .widget {
@@ -7573,7 +7527,7 @@ footer .tiny-border span{
 	background-size:cover;
 }
 
-.bg-color-secondary h1, .bg-color-secondary h2, .bg-color-secondary h3, .bg-color-secondary h4, .bg-color-secondary h5, .bg-color-secondary h6, 
+.bg-color-secondary h1, .bg-color-secondary h2, .bg-color-secondary h3, .bg-color-secondary h4, .bg-color-secondary h5, .bg-color-secondary h6,
 .p-title.invert,
 .p-tagline,
 i.bg-color-secondary
@@ -7726,7 +7680,7 @@ body.dark-mode,
 #purchase-now a{
 	color:#ffffff;
 	z-index: 1;
-	position: absolute;	
+	position: absolute;
 	border-radius: 60px;
 	-moz-border-radius: 60px;
 	-webkit-border-radius: 60px;
@@ -7800,8 +7754,8 @@ body.dark-mode,
 	top:-10%;
 	left:-10%;
 	z-index:1;
-	
-	
+
+
 }
 
 .di-small-2{
@@ -7913,9 +7867,9 @@ div.round{
 .fpwow-icons{
 	display:inline-block;
 	background:#ffffff;
-	padding:5px 10px 7px 10px;	
-	border-radius:5px;	
-	-moz-border-radius:5px;	
+	padding:5px 10px 7px 10px;
+	border-radius:5px;
+	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
 }
 .fpwow-icons a{
@@ -8015,7 +7969,7 @@ div.round{
     -o-filter: grayscale(0%);
     -ms-filter: grayscale(0%);
     filter: grayscale(0%);
-	
+
 	transform: scale(1.05);
 }
 .fp-wrap:hover .fpw-overlay-btm{
@@ -8227,7 +8181,7 @@ section .color-overlay {
 	display: table-cell;
 	vertical-align: top;
 	margin: 0;
-	padding: 0;	
+	padding: 0;
 }
 #popup-box {
 	position: fixed;
@@ -8313,7 +8267,7 @@ section .color-overlay {
 	margin-bottom: 60px;
 }
 .teaser-text {
-	font-family: "Red Hat Display";
+	font-family:  'Noto Sans JP', sans-serif;
 	font-size: 18px;
 	color: rgba(255, 255, 255, .5);
 	line-height: normal;
@@ -8556,7 +8510,7 @@ p.intro {
 .owl-dots button{
 	border:none;
 	outline:none;
-	padding:0;	
+	padding:0;
 	width:8px;
 	height:8px;
 	margin:0 5px;
@@ -9210,26 +9164,26 @@ a.read_more i {
 	font-size:18px;
 	border-radius:10px;
 	border:none;
-	
+
 }
 .table-pricing thead{
 	color:#ffffff;
 	font-size:18px;
 }
-.table-pricing thead tr th{	
+.table-pricing thead tr th{
 	padding:20px 0 20px 0;
 }
 .table-pricing tbody tr{
 	width:100%;
 	background:#f2f2f2;
-	border-top:solid 8px #ffffff;	
+	border-top:solid 8px #ffffff;
 }
 .table-pricing tbody tr:hover{
 	background:#e2e2e2;
 }
 .table-pricing tbody tr td,
 .table-pricing tbody tr th{
-	border:none;	
+	border:none;
 	padding:20px 0 20px 0;
 }
 .table-pricing tbody tr th .lbl,
@@ -9407,7 +9361,7 @@ animation: blink 0.7s infinite;
 	margin-bottom:5px;
 }
 .style-2 .date-box .m{
-	font-family:"Red Hat Display";
+	font-family: 'Noto Sans JP', sans-serif;
 	font-size:13px;
 	text-transform:uppercase;
 	letter-spacing:8px;
@@ -9515,18 +9469,18 @@ animation: blink 0.7s infinite;
  .switch:focus {
 	 outline-color: transparent;
 }
- 
+
 .box-highlight{
 	-webkit-box-shadow: 5px 5px 40px 0px rgba(0, 0, 0, 0.1);
 	-moz-box-shadow: 5px 5px 40px 0px rgba(0, 0, 0, 0.1);
 	box-shadow: 5px 5px 40px 0px rgba(0, 0, 0, 0.1);
 }
- 
+
 .box-highlight,
 .box-highlight .content{
 	border-radius:5px;
 	-moz-border-radius:5px;
-	-webkit-border-radius:5px;	
+	-webkit-border-radius:5px;
 	padding:5px;
 }
 
@@ -9753,12 +9707,12 @@ animation: blink 0.7s infinite;
 
 
 .de-image-hover{
-	position:relative;	
+	position:relative;
 	overflow:hidden;
 }
 .dih-overlay{
 	z-index:1;
-	position:absolute;	
+	position:absolute;
 	width:100%;
 	height:100%;
 	background:#eee;
@@ -9767,7 +9721,7 @@ animation: blink 0.7s infinite;
 .dih-title-wrap{
 	z-index:2;
 	display:table;
-	position:absolute;	
+	position:absolute;
 	width:100%;
 	height:100%;
 }
@@ -9776,7 +9730,7 @@ animation: blink 0.7s infinite;
 	font-size:16px;
 	z-index:2;
 	text-align:center;
-	display:table-cell;	
+	display:table-cell;
 	vertical-align:middle;
 	color:#fff;
 }
@@ -10034,7 +9988,7 @@ animation: blink 0.7s infinite;
 	letter-spacing: 6px;
 }
 .very-big-white {
-	font-family: "Red Hat Display";
+	font-family:  'Noto Sans JP', sans-serif;
 	font-size: 64px;
 	color: #fff;
 	margin: 0;
@@ -10102,7 +10056,7 @@ a.btn-slider:hover {
 	transition-duration: 0s;
 }
 #filters {
-	font-family:"Red Hat Display";
+	font-family: 'Noto Sans JP', sans-serif;
 	padding: 0;
 	margin: 0;
 	margin-bottom: 20px;
@@ -10366,7 +10320,7 @@ a.btn-slider:hover {
 }
 blockquote.very-big {
 	border: none;
-	font-family: "Red Hat Display";
+	font-family:  'Noto Sans JP', sans-serif;
 	text-align: center;
 	border: none;
 	font-size: 32px;
@@ -10375,7 +10329,7 @@ blockquote.very-big {
 	font-style: normal;
 }
 blockquote.very-big span {
-	font-family: "Red Hat Display";
+	font-family:  'Noto Sans JP', sans-serif;
 }
 a, img {
 	outline: 0;
@@ -10405,7 +10359,7 @@ a, img {
 
 
 /* ================================================== */
-	
+
 @media only screen and (min-width: 1280px) {
 	.container{
 		min-width:1200px;
@@ -10422,7 +10376,7 @@ a, img {
 	}
 }
 
-/* -------------------------------------------------- 
+/* --------------------------------------------------
 	design for 768px
 	/* ================================================== */
 
@@ -10431,31 +10385,31 @@ a, img {
 		padding-top: 0px;
 	}
 }
-@media only screen and (max-width: 992px) {	
-	
+@media only screen and (max-width: 992px) {
+
 	.col-right{
 	position:absolute;
 	top:-82px;
 	right:60px;
 	width:140px;
 	}
-	
+
 	.mb-sm-30{
 		margin-bottom:30px;
 	}
-	
+
 	.p-sm-30{
 		padding:40px;
 	}
-	
+
 	.pb-sm-0{
 		padding-bottom:0;
 	}
-	
+
 	.mb-sm-0{
 		margin-bottom:0;
 	}
-	
+
 	header .header-col{
 		position:absolute;
 		top:0;
@@ -10466,7 +10420,7 @@ a, img {
 		width:100%;
 		padding:0 0 0 0;
 	}
-	
+
 	.text-center-sm {
 		text-align: center;
 	}
@@ -10847,7 +10801,7 @@ a, img {
 	header.header-light.header-mobile #mainmenu>li>span.active, header.header-light.header-mobile #mainmenu li>ul>li>span.active {
 		background: url(../images/ui/arrow-up.png) center no-repeat;
 	}
-	
+
 	#mainmenu li ul.mega{
 	position:fixed;
 	left:0;
@@ -10863,7 +10817,7 @@ a, img {
 	visibility: visible;
 	opacity: 1;
 	left:0;
-	float:none;		
+	float:none;
 	width:100%;
 }
 #mainmenu li ul.mega .inner{
@@ -10878,7 +10832,7 @@ a, img {
 	background:#202020;
 	padding:30px;
 }
-	
+
 	/* header light */
 	.header-light #mainmenu ul li a, .header-light #mainmenu ul li a:hover {
 		color: #333;
@@ -10910,29 +10864,29 @@ a, img {
 		display: block;
 		vertical-align: top;
 	}
-	
+
 	.table-pricing thead tr,
 	.table-pricing tbody tr {
 		display:block;
 		width:100%;
 	}
-	
+
 	.table-pricing thead tr{
 		display:none;
 	}
-	
+
 	.table-pricing tbody tr th,
 	.table-pricing tbody tr td{
 		text-align:left;
 		display:block;
 		width:100%;
-		
+
 	}
-	
+
 	.table-pricing tbody tr td{
 		padding:10px 30px;
 	}
-	
+
 	.table-pricing tbody tr td:nth-child(2){
 		padding-top:30px;
 	}
@@ -10941,20 +10895,20 @@ a, img {
 		padding-bottom:40px;
 		text-align:center;
 	}
-	
+
 	.table-pricing tbody tr th span,
 	.table-pricing tbody tr td span{
 		min-width:50%;
 	}
-	
+
 	.table-pricing tbody tr th .lbl,
 	.table-pricing tbody tr td .lbl{
 		display:inline-block;
 		min-width:50%;
 	}
-	
+
 	.table-pricing tbody tr th{
-		color:#ffffff;		
+		color:#ffffff;
 		padding:20px 30px;
 	}
 
@@ -10970,43 +10924,43 @@ a, img {
 	.schedule-item .sc-info {
 		padding-top: 20px;
 	}
-	
+
 	.de_tab.tab_style_4 .de_nav li {
 		min-width:100px;
 	}
-	
+
 	#mainmenu a span{
 		display:none;
 	}
-	
+
 	.pf_full_width.grid{
 		margin-left:1.5%;
 	}
-	
+
 	.de_tab.tab_steps.style-2 .de_nav li.active .arrow{
 		margin-top:-40px;
 		margin-bottom:40px;
 
 	}
-	
+
 	.table-custom-1{
 		position:relative;
 		height:auto;
-	}	
-	
+	}
+
 	h1.very-big{
 		font-size:9vw;
 		letter-spacing:0;
 	}
-	
+
 	.timeline > li > .timeline-panel {
 		width:100%;
 	}
-	
+
 	.timeline-badge{
 		display:none;
 	}
-	
+
 	.timeline:before{
 		background:none;
 	}
@@ -11015,11 +10969,11 @@ a, img {
 		padding-left:40px;
 		padding-right:40px;
 	}
-	
+
 }
 
-/* -------------------------------------------------- 
-	custom for 320px & 480px 
+/* --------------------------------------------------
+	custom for 320px & 480px
 	/* -------------------------------------------------- */
 
 @media only screen and (max-width: 767px) {
@@ -11035,11 +10989,11 @@ a, img {
 	}
 
 
-	
+
 	.pricing-2-col .pricing-box, .pricing-3-col .pricing-box, .pricing-4-col .pricing-box, .pricing-5-col .pricing-box {
 		width: 100%;
 	}
-	
+
 	.container-4 .de-team-list {
 		width: 100%;
 		float: left;
@@ -11129,18 +11083,18 @@ a, img {
 		-moz-border-radius: 0;
 		-webkit-border-radius: 0;
 	}
-	
+
 	.pf_full_width.grid{
 		margin-left:.2%;
 	}
 	.pf_full_width.grid .item{
 		width: 48.5%;
 	}
-	
+
 	.display-table [class*="col-"] {
 	display: block;
 	}
-	
+
 	h1.big, h1_big{
 	font-size:8vw;
 	line-height:10vw;
@@ -11151,7 +11105,7 @@ a, img {
 	}
 }
 
-/* -------------------------------------------------- 
+/* --------------------------------------------------
 	design for 480px
 	/* -------------------------------------------------- */
 
@@ -11163,22 +11117,22 @@ a, img {
 	.feature-box-image, .pricing-box {
 		margin-bottom: 30px;
 	}
-	
+
 	.timeline-panel{
 		margin-bottom:30px;
 	}
-	
+
 	.timeline-pic{
 		height:300px;
 	}
 }
 
-/* -------------------------------------------------- 
+/* --------------------------------------------------
 	design for 320px
 	/* -------------------------------------------------- */
 
 @media only screen and (max-width: 480px) {
-	
+
 	.pf_full_width .item {
 		float: left;
 		width: 100%;
