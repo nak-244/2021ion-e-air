@@ -7,3 +7,7 @@ font-weight: 500;
 .lh-0 {
 	line-height: normal;
 }
+
+.float li {
+	display:inline;
+}
