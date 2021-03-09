@@ -1,13 +1,19 @@
 .h-phone span {
-	font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
 }
+
 .lead {
-font-weight: 500;
+  font-weight: 500;
 }
+
 .lh-0 {
-	line-height: normal;
+  line-height: normal;
 }
 
 .float li {
-	display:inline;
+  display: inline;
+}
+
+.active {
+ color: #ffffff!important;
 }
