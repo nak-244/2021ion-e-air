@@ -105,8 +105,8 @@
 
               <form id="mailform" method="post" action="mailform/send.cgi" onsubmit="return sendmail(this);">
                 <div class="field-set">
-                  分類
-                  <select class="custom-select" name="分類">
+                  <span class="small badge badge-danger">必須</span>&nbsp;分類
+                  <select class="custom-select" name="分類(必須)">
                     <option value="">▼下記よりお選びください▼</option>
                     <option value="資料請求">資料請求</option>
                     <option value="お問い合わせ">お問い合わせ</option>
@@ -119,17 +119,17 @@
                 </div>
 
                 <div class="field-set">
-                  ご担当者名
+                  <span class="small badge badge-danger">必須</span>&nbsp;ご担当者名
                   <input type="text" name="ご担当者名(必須)" class="form-control" />
                 </div>
 
                 <div class="field-set">
-                  メールアドレス
+                  <span class="small badge badge-danger">必須</span>&nbsp;メールアドレス
                   <input type="text" name="email(必須)" class="form-control" />
                 </div>
 
                 <div class="field-set">
-                  電話番号
+                  <span class="small badge badge-danger">必須</span>&nbsp;電話番号
                   <input type="text" name="電話番号(必須)" class="form-control" />
                 </div>
 
