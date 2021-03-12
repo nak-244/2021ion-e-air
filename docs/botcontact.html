@@ -106,10 +106,10 @@
               <form id="r_mailform" method="post" action="r_mailform/send.cgi" onsubmit="return sendmail(this);">
                 <div class="field-set">
                   種別
-                  <select class="custom-select">
-                    <option selected>▼下記よりお選びください▼</option>
-                    <option value="1">資料請求</option>
-                    <option value="2">お問い合わせ</option>
+                  <select class="custom-select" name="内容">
+                    <option value="">▼下記よりお選びください▼</option>
+                    <option value="資料請求">資料請求</option>
+                    <option value="お問い合わせ">お問い合わせ</option>
                   </select>
                 </div>
 
