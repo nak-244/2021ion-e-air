@@ -24,41 +24,42 @@ $conf{'spam_message'} = 'スパム行為の可能性があるため、送信で�
 $conf{'sendmail'} = '/usr/lib/sendmail';
 
 #06.設置者のアドレス(カンマ区切り)
-$conf{'mailto'} = 'info-he@olp.co.jp,tsuyoshi.nakamura@openloop.co.jp';
+# $conf{'mailto'} = 'ioneair@openloop.co.jp,tsuyoshi.nakamura@openloop.co.jp';
+$conf{'mailto'} = 'tsuyoshi.nakamura@openloop.co.jp';
 
 #07.送信完了時にリダイレクトするサンクスページ
 $conf{'thanks'} = '../thanks.html';
 
 #08.設置者に届くメールの件名
-$conf{'subject'} = '【HE】ホームページからお問い合わせ';
+$conf{'subject'} = '【イオニアミストPRO】ホームページからお問い合わせ';
 
 #09.送信者に届くメールの件名
-$conf{'res_subject'} = 'ヒバライエンジン - お問い合わせ受け付けました。';
+$conf{'res_subject'} = 'イオニアミストPRO - お問い合わせ受け付けました。';
 
 #10.送信者に届くメールの本文
 $conf{'res_body'} = <<'__res_body_eof__';
-この度は　hibarai Engine（ヒバライエンジン）　に関するお問い合わせをいただき、誠にありがとうございます。
+この度はイオニアミストPROに関するお問い合わせをいただき、誠にありがとうございます。
 内容を確認させていただき、改めて担当者よりご連絡をさせていただきます。
 
-尚、3営業日経過しても返信がなかった場合、お手数おかけいたしますが改めてお問い合わせフォームを送信いただきますよう、お願い申し上げます。
+お急ぎの場合はお手数をおかけいたしますが、お電話にてご連絡ください。
 
-■hibarai Engine お問い合わせフォーム
-https://www.olp.co.jp/hibaraiengine/counseling.html
+■問い合わせ先
+TEL / 03-5368-3897
+受付時間 / 10：00〜18：00（土日祝日・年末年始を除きます）
 
 ─ご送信内容の確認─────────────────
 <resbody>
 ──────────────────────────
 
-このメールに心当たりの無い場合は、お手数ですが
-下記連絡先までお問い合わせください。
+このメールに心当たりの無い場合は、お手数ですが下記連絡先までお問い合わせください。
 
 この度はお問い合わせ重ねてお礼申し上げます。
 ━━━━━━━━━━━━━━━━━━━━━━━━━━
-　株式会社オープンループパートナーズ／　hibarai Engine　
+　株式会社オープンループパートナーズ
 　〒160-0022
 　東京都新宿区新宿四丁目3番17号 FORECAST新宿SOUTH7階
-　TEL / 03-5368-3789
-　https://www.olp.co.jp/hibaraiengine/
+　TEL / 03-5368-3897
+　https://www.olp.co.jp/lp/2021ion-e-air/
 ━━━━━━━━━━━━━━━━━━━━━━━━━━
 __res_body_eof__
 
