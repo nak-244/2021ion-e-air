@@ -103,10 +103,10 @@
             <div class="col-lg-12">
               <p>ご相談、お見積もりなど、お気軽にお問い合わせください。<br />メールからのお問い合わせは内容を確認後、担当者よりご連絡させていただきます。</p>
 
-              <form id="r_mailform" method="post" action="r_mailform/send.cgi" onsubmit="return sendmail(this);">
+              <form id="mailform" method="post" action="mailform/send.cgi" onsubmit="return sendmail(this);">
                 <div class="field-set">
-                  種別
-                  <select class="custom-select" name="内容">
+                  分類
+                  <select class="custom-select" name="分類">
                     <option value="">▼下記よりお選びください▼</option>
                     <option value="資料請求">資料請求</option>
                     <option value="お問い合わせ">お問い合わせ</option>
