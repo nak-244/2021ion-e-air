@@ -24,8 +24,7 @@ $conf{'spam_message'} = 'スパム行為の可能性があるため、送信で�
 $conf{'sendmail'} = '/usr/lib/sendmail';
 
 #06.設置者のアドレス(カンマ区切り)
-# $conf{'mailto'} = 'ioneair@openloop.co.jp,tsuyoshi.nakamura@openloop.co.jp';
-$conf{'mailto'} = 'tsuyoshi.nakamura@openloop.co.jp';
+$conf{'mailto'} = 'ioneair@openloop.co.jp,tsuyoshi.nakamura@openloop.co.jp';
 
 #07.送信完了時にリダイレクトするサンクスページ
 $conf{'thanks'} = '../thanks.html';
