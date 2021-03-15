@@ -26,3 +26,35 @@
   position: relative;
   z-index: 1000000;
 }
+
+/* pcを表示 */
+.pc {
+  display: block !important;
+}
+
+.sp {
+  display: none !important;
+}
+
+/* spを表示 */
+@media only screen and (max-width: 750px) {
+  .pc {
+    display: none !important;
+  }
+
+  .sp {
+    display: block !important;
+  }
+}
+
+.collapsible-link::before {
+  right: 0.2rem;
+}
+
+.collapsible-link::after {
+  right: calc(0.2rem + 6px);
+}
+
+li {
+  white-space: nowrap;
+}
